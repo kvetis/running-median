@@ -1,0 +1,23 @@
+{
+  "name": "aktis-median",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Martin Vecera <kvetis@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "npx jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^10.0.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "sorted-array": "^2.0.4",
+    "ts-node": "^8.3.0"
+  }
+}
